@@ -11,6 +11,16 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/*
+main {
+  display: flex;
+}
+
+.after-side {
+  padding: 20px;
+}
+*/
+
 .menu {
   width: 300px;
   background-color: #fff;
@@ -53,8 +63,13 @@ li {
   align-items: center;
   height: 55px;
   padding: 10px 30px;
-  color: rgba(66, 76, 80, 0.6);
   transition: all 0.4s ease-in-out;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  color: rgba(66, 76, 80, 0.6);
 }
 
 .icon-item {
@@ -162,3 +177,9 @@ li:hover .icon-item {
     margin: 20px auto;
   }
 }
+
+/*
+.tables-container {
+  background-color: rgba(30, 144, 255, 0.3);
+}
+*/
