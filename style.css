@@ -88,8 +88,12 @@ a {
 li:hover {
   border-left: 6px solid #67b569;
   background-color: rgba(95, 207, 128, 0.1);
-  color: #000;
   font-weight: 500;
+}
+
+.item-active a,
+li:hover a {
+  color: rgba(66, 76, 80, 1);
 }
 
 .item-active .icon-item,
