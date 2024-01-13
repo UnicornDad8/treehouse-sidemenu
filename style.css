@@ -59,8 +59,6 @@ ul:first-child {
 li {
   cursor: pointer;
   border-left: 6px solid transparent;
-  display: flex;
-  align-items: center;
   height: 55px;
   padding: 10px 30px;
   transition: all 0.4s ease-in-out;
@@ -70,6 +68,7 @@ a {
   text-decoration: none;
   display: flex;
   color: rgba(66, 76, 80, 0.6);
+  align-items: center;
 }
 
 .icon-item {
@@ -89,7 +88,7 @@ a {
 li:hover {
   border-left: 6px solid #67b569;
   background-color: rgba(95, 207, 128, 0.1);
-  color: #424c50;
+  color: #000;
   font-weight: 500;
 }
 
@@ -100,7 +99,7 @@ li:hover .icon-item {
 }
 
 .separator {
-  color: rgba(0, 0, 0, 0.8);
+  color: #424c50;
   font-weight: 600;
   padding: 10px 30px;
   margin-left: 6px;
