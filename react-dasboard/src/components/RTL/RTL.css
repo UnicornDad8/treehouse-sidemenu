@@ -1,0 +1,10 @@
+.rtl-container {
+  display: flex;
+  flex: 1;
+  background-color: #67b569;
+}
+
+.rtl-container p {
+  margin: 20px;
+  color: #fff;
+}

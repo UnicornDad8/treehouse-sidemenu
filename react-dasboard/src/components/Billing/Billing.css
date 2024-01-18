@@ -1,0 +1,9 @@
+.billing-container {
+  display: flex;
+  flex: 1;
+  background-color: #e5e5e5;
+}
+
+.billing-container p {
+  margin: 20px;
+}

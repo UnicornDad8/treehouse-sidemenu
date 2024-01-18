@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.container h1 {
+  color: #424c50;
+  margin-bottom: 30px;
+}
+
+.container p {
+  color: #424c50;
+  margin: 10px auto;
+}
+
+.container p i {
+  color: rgba(66, 76, 80, 0.5);
+  fill: rgba(66, 76, 80, 0.5);
+}

@@ -1,0 +1,10 @@
+.tables-container {
+  display: flex;
+  flex: 1;
+  background-color: #424c50;
+}
+
+.tables-container p {
+  margin: 20px;
+  color: #fff;
+}

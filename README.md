@@ -2,7 +2,7 @@
 
 > This is an HTML and CSS only template, we made a sidemenu or the menu of a Dashboard.
 
-![Menu Dashboard](./treehouse-sidemenu.png)
+![Menu Dashboard](./app_screenshot.png)
 
 ## 🔧 Built With
 
